@@ -8,8 +8,9 @@ REGOLE
 */
 
 /* ESERCIZIO 1
-    Dato il seguente array, scrivi del codice per stampare ogni elemento dell'array in console.
+    Dato il seguente arrayc, scrivi del codice per stampare ogni elemento dell'array in console.
 */
+
 
 
 const pets = ['dog', 'cat', 'hamster', 'redfish'];
@@ -161,12 +162,12 @@ while (i <=13) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ['g', 'n', 'u', 'z', 'd']
-const alphabet = 'abcdefghijklmnopqrstuvwxyz'; //creo un const con l'lafabeto italiano
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'; //creo un const per l'alfabeto italiano
 let itaposition = []; 
 
 for (let i = 0; i < charactersArray.length; i++) {
     let character = charactersArray[i];
-    let position = alphabet.indexOf(character) + 1; //metto +1 per farlo coincidere con l'indece dell'id
+    let position = alphabet.indexOf(character) + 1; //metto +1 per farlo coincidere con l'indice dell'id
     itaposition.push(position);
 }
 
